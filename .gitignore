@@ -1,0 +1,33 @@
+## .NET / Visual Studio
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+*.lock.json
+*.nupkg
+.vs/
+.vscode/
+.idea/
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]uilds/
+artifacts/
+*.binlog
+
+## Logs
+*.log
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Test results
+TestResults/
+coverage*.xml
+*.coverage
+*.trx

@@ -1,0 +1,17 @@
+<Project>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningsAsErrors>Nullable</WarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <AbpVersion>10.4.0</AbpVersion>
+    <MicrotingMySqlVersion>10.0.7</MicrotingMySqlVersion>
+    <EfCoreVersion>10.0.7</EfCoreVersion>
+  </PropertyGroup>
+
+</Project>

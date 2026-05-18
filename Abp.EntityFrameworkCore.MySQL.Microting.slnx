@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Abp.EntityFrameworkCore.MySQL.Microting/Abp.EntityFrameworkCore.MySQL.Microting.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Abp.EntityFrameworkCore.MySQL.Microting.Tests/Abp.EntityFrameworkCore.MySQL.Microting.Tests.csproj" />
+  </Folder>
+</Solution>
