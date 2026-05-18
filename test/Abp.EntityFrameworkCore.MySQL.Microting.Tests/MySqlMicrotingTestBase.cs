@@ -1,4 +1,4 @@
-using Volo.Abp.Testing;
+﻿using Volo.Abp.Testing;
 
 namespace Abp.EntityFrameworkCore.MySQL.Microting.Tests;
 

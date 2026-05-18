@@ -1,6 +1,6 @@
-using System;
-using JetBrains.Annotations;
+﻿using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
+using System;
 using Volo.Abp.EntityFrameworkCore.DependencyInjection;
 
 namespace Volo.Abp.EntityFrameworkCore;

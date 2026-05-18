@@ -1,5 +1,5 @@
+﻿using JetBrains.Annotations;
 using System;
-using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 
 namespace Volo.Abp.EntityFrameworkCore;
