@@ -10,8 +10,8 @@
 
   <PropertyGroup>
     <AbpVersion>10.4.0</AbpVersion>
-    <MicrotingMySqlVersion>10.0.7</MicrotingMySqlVersion>
-    <EfCoreVersion>10.0.7</EfCoreVersion>
+    <MicrotingMySqlVersion>10.0.13</MicrotingMySqlVersion>
+    <EfCoreVersion>10.0.13</EfCoreVersion>
   </PropertyGroup>
 
 </Project>

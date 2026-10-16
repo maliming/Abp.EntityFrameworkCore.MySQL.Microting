@@ -6,7 +6,7 @@ An ABP EF Core MySQL provider package backed by the [Microting fork](https://git
 
 As of 2026, the official `Pomelo.EntityFrameworkCore.MySql` is still stuck on EF Core 9 (no `net10.0` release yet), and `MySql.EntityFrameworkCore` 10.x from Oracle still has open translation bugs (see [`Contains` is broken on EF Core 10](https://github.com/abpframework/abp/issues/24213)). The Microting fork is currently the only Pomelo-compatible MySQL provider that:
 
-- Targets `net10.0` and tracks EF Core 10.x releases (10.0.3 / 10.0.5 / 10.0.6 / 10.0.7+)
+- Targets `net10.0` and tracks EF Core 10.x releases
 - Is actively maintained
 - Keeps Pomelo's public API surface intact (namespace `Microsoft.EntityFrameworkCore`, `UseMySql` extension, `MySqlDbContextOptionsBuilder`)
 
@@ -23,6 +23,12 @@ dotnet add package Abp.EntityFrameworkCore.MySQL.Microting
 ```
 
 > Not published to NuGet yet. Clone or reference the project locally for now.
+
+## Dependencies
+
+This project uses ABP 10.4.0, Microting 10.0.13, and EF Core 10.0.13. Keep the EF Core package versions aligned in your application.
+
+Microting 10.0.13 includes the [fix for `ExecuteDelete` with `LEFT JOIN`](https://github.com/microting/Pomelo.EntityFrameworkCore.MySql/pull/461), which resolves MySQL error 1093 during OpenIddict token cleanup.
 
 ## Usage
 
